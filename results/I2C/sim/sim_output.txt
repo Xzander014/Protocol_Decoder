@@ -1,0 +1,33 @@
+VCD info: dumpfile i2c_decoder_tb.vcd opened for output.
+
+=== Test 1: WRITE  addr=0x4A  data=[0xA5, 0x3C] ===
+  [MON] addr_valid: addr=0x4a  rw=0  (@5405000 ns)
+  [PASS]          T1 addr : 0x4a
+  [PASS]          T1 rw   : 0x0
+  [MON] data_valid: data=0xa5  ack=1  (@10825000 ns)
+  [PASS]       T1 data[0] : 0xa5
+  [MON] data_valid: data=0x3c  ack=1  (@16245000 ns)
+  [PASS]       T1 data[1] : 0x3c
+
+=== Test 2: READ   addr=0x4A ===
+  [MON] addr_valid: addr=0x4a  rw=1  (@23865000 ns)
+  [PASS]          T2 addr : 0x4a
+  [PASS]          T2 rw   : 0x1
+
+=== Test 3: Repeated START ===
+  [MON] addr_valid: addr=0x12  rw=0  (@31485000 ns)
+  [PASS]         T3 addr1 : 0x12
+  [MON] addr_valid: addr=0x55  rw=0  (@38955000 ns)
+  [PASS]  repeated START) : 0x55
+
+=== Test 4: NACK from slave (error expected) ===
+  [MON] addr_valid: addr=0x7f  rw=0  (@46585000 ns)
+  [MON] ERROR detected                           (@47185000 ns)
+  [PASS]    T4 error flag : 0x1
+
+======================================
+ Results: 9 PASSED, 0 FAILED
+======================================
+
+ALL TESTS PASSED
+/home/kartix/Collage/Projects/FPGA_Final/i2c_decoder_tb.v:288: $finish called at 48955000 (1ps)

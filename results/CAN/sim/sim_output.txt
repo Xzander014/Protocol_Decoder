@@ -1,0 +1,1 @@
+[INFO] Simulation stopped after 15s timeout

@@ -1,0 +1,18 @@
+VCD info: dumpfile uart_tb.vcd opened for output.
+[LOGIC ANALYZER] Captured Value: 0xbd
+[LOGIC ANALYZER] Captured Value: 0xbe
+[LOGIC ANALYZER] Captured Value: 0xbf
+[LOGIC ANALYZER] Captured Value: 0xc0
+[LOGIC ANALYZER] Captured Value: 0xc1
+[LOGIC ANALYZER] Captured Value: 0xc2
+[LOGIC ANALYZER] Captured Value: 0xc3
+[LOGIC ANALYZER] Captured Value: 0xc4
+[LOGIC ANALYZER] Captured Value: 0xc5
+[LOGIC ANALYZER] Captured Value: 0xc6
+[LOGIC ANALYZER] Captured Value: 0xc7
+[LOGIC ANALYZER] Captured Value: 0xc8
+[LOGIC ANALYZER] Captured Value: 0xc9
+[LOGIC ANALYZER] Captured Value: 0xca
+[LOGIC ANALYZER] Captured Value: 0xcb
+[LOGIC ANALYZER] Captured Value: 0xcc
+/home/kartix/Collage/Projects/FPGA_Final/tb_uart_logic_analyzer.v:51: $finish called at 1230000 (1ps)
